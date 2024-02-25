@@ -1,0 +1,72 @@
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    border: 5px solid black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    border: 2px solid rgb(202, 202, 237);
+    border-radius: 10px; /* Make the navigation bar circular */
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: larger;
+}
+
+.container h3 {
+    text-align: center;
+    font-size: larger;
+    color: rgb(1, 1, 15);
+}
+
+.container h1 {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(123, 123, 230);
+}
+
+.container h1 sub {
+    text-align: center;
+    font-size: x-small;
+    color: rgb(1, 1, 15);
+}
+
+.imagecontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.thumbnail {
+    width: 30%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.colordheding {
+    position: relative;
+    text-align: center;
+    display: inline;
+    background-color: brown;
+    padding: 5px;
+    border-radius: 10px; /* Make the background shape rectangular with rounded corners */
+    margin: 20px auto; /* Center the heading horizontally */
+}
